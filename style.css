@@ -21,9 +21,15 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-input{
+#h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+input {
     
 }
+
 p {
     text-align: center;
 }
