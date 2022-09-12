@@ -1,0 +1,47 @@
+body {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    padding-top: 32px;
+}
+
+#container {
+    margin: 0 auto 48px;
+    width: 111px;
+    height: 32px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+input {
+    
+}
+
+p {
+    text-align: center;
+}
+
+#marcas {
+    border-top: 1px solid #d2d5d9;
+    border-bottom: 1px solid #d2d5d9;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.logo {
+    display: flex;
+    list-style: none;
+}
