@@ -1,7 +1,8 @@
 body {
     background-image: url(img/background.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
+    background-position: center;
 }
 
 header {
@@ -9,39 +10,167 @@ header {
 }
 
 #container {
-    margin: 0 auto 48px;
-    width: 111px;
-    height: 32px;
+    height: 120vh;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
     color: #ffffff;
     font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#h2 {
+.h2 {
     text-align: center;
     color: #ffffff;
+    font-size: 30px;
 }
 
-input {
-    
+#container p {
+    color: #ffffff;
+    font-size: 13px;
 }
 
-p {
-    text-align: center;
+
+.email {
+    height: 15px;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 0px 8px 8px;
 }
 
-#marcas {
+.button {
+    background-color: #212326;
+    color: #ffffff;
+    height: 49px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+}
+
+.utilidades {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.container {
+    width: 330px;
+    margin:0 16px;
+    color: #212326;
+    text-align: left;
+}
+
+.container p{
+    color: #6b7177;
+    font-size: 0,80em;
+    margin-bottom: 0,75em;
+}
+
+.marcas {
     border-top: 1px solid #d2d5d9;
     border-bottom: 1px solid #d2d5d9;
     padding-top: 3em;
     padding-bottom: 3em;
+    padding-left: 160px;
 }
 
 .logo {
     display: flex;
     list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: -16px;
+}
+
+.frase {
+    padding-top: 30px;
+    text-align: center;
+    color: #272829;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ceo {
+    text-align: center;
+    color: #6b7177;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 96px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.faqs {
+    color: #457b71;
+}
+
+.free {
+    background-color: #008060;
+    color: #ffffff;
+    height: 49px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 27px 1px rgba(0,0,0,0.59);
+}
+
+.footer {
+    background-color: #faf9f8;
+    text-align: center;
+    margin-bottom: 45px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+
+#faquestions {
+    text-align: left;
+    list-style: none;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.botao {
+    border: none;
+    background-color: #faf9f8;
+    margin-left: 309px;
+}
+
+.botao2 {
+    border: none;
+    background-color: #faf9f8;
+    margin-left: 366px;
+}
+
+.botao3 {
+    border: none;
+    background-color: #faf9f8;
+    margin-left: 264px;
+}
+
+.botao4 {
+    border: none;
+    background-color: #faf9f8;
+    margin-left: 205px;
+}
+
+
+.faquestions {
+    cursor: pointer;
+}
+
+.terms {
+    text-align: right;
+}
+
+.footerlink {
+    margin-left: 1em;
+    text-decoration: none;
+    color: #008060;
+    font-family: Arial, Helvetica, sans-serif;
 }
